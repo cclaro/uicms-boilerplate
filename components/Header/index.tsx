@@ -17,8 +17,8 @@ const Header = ({ navigation }: HeaderProps) => (
             <HiringLink text="contact us" slug="/" backgroundColor={'bgGray50'} />
         </HeaderLogo>
         <HeaderNavigation>
-            {navigation.map((item) => (
-                <HeaderNavigationItem key={item.title} slug={item.slug} text={item.title}   />
+            {navigation.map(({slug, id, title}) => (
+                <HeaderNavigationItem key={id} slug={slug} text={title}   />
             ))}
         </HeaderNavigation>
         <HeaderLogin navigation={navigation} />

@@ -3,7 +3,7 @@ import { theme } from '../../utils/theme'
 import { spacing } from '../../utils/units'
 
 export interface HeaderItemProps {
-    id: number
+    id: string
     title: string
     slug: string
 }

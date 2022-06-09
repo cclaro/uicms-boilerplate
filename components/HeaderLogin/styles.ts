@@ -3,7 +3,7 @@ import { theme } from '../../utils/theme'
 import { spacing, fontSizes } from '../../utils/units'
 
 export interface HeaderLoginItemProps {
-    id: number
+    id: string
     title: string
     slug: string
 }

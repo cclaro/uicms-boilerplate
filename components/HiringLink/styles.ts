@@ -21,6 +21,7 @@ export const HiringWrapper = styled('a')<Pick<HiringLinkProps, "backgroundColor"
     padding: ${spacing.xxsmall} ${spacing.small};
     border-radius: ${theme.shape.borderRadius};
     cursor: pointer;
+    text-decoration: none;
     
     @media (max-width: ${theme.breakpoints.large}) {
         display: none;
